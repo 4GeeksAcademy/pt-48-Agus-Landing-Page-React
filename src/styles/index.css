@@ -14,8 +14,8 @@
     font-family: Orbitron, sans-serif;
     display: flex;
     justify-content: center;
-/*    background-image: url('backgroundImage5-min.png');
-    background-repeat: no-repeat;*/
+    background-image: url('../img/backgroundImage5-min.jpg');
+    background-repeat: no-repeat;
   }
   
   a {

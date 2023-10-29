@@ -1,14 +1,14 @@
 import React from "react";
 import '../../styles/index.css';
-import '../../styles/styles.css';
 
-//create your first component
+import boltImage from "../../img/bolt.png";
+
 const BodyCryptPlanet = () => {
-	rreturn (<>
+	return (<>
 		<div className="container-fluid" id="body__">
 			<div className="body__left">
 				<div className="body-current__left">
-					<img src="bolt.png" alt="bolt" width="77px" />
+                <img src={boltImage} alt="bolt" width="77px" />
 					<div className="bid ps-3 pt-1">
 						<p className="text-secondary pt-1">CURRENT BID</p>
 						<span style={{color: "white"}}>281.33 ETH = 2.81$</span>

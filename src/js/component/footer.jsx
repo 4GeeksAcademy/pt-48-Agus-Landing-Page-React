@@ -1,5 +1,8 @@
 import React from "react";
 import '../../styles/index.css';
+import hapeImage from "../../img/hape.png";
+import zipcyImage from "../../img/zipcy.png";
+import mutantImage from "../../img/mutant.png";
 
 const FooterCryptPlanet = () => {
 	return (<>
@@ -11,7 +14,7 @@ const FooterCryptPlanet = () => {
 			<div className="footer-collections__container">
 				<a href="#">
 					<div className="footer__hape border border-2 border-secondary" >
-						<img src="hape.png" alt="hape" className="rounded-circle" id="hape" />
+						<img src={hapeImage} alt="hape" className="rounded-circle" id="hape" />
 						<div className="hape-container__main">
 							<span className="ps-3" style={{color: "white"}}><b>HAPE PRIME</b></span>
 							<span className="priceAndThing ps-3">FloorPrice:&nbsp;&nbsp;&nbsp;<i style={{color: "green"}} className="fa-solid fa-diamond"></i> 4</span>
@@ -24,7 +27,7 @@ const FooterCryptPlanet = () => {
 				</a>
 				<a href="#">
 					<div className="footer__zipcy border border-2 border-secondary">
-						<img src="zipcy.webp" alt="zipcy" className="me-3 rounded-circle" id="zipcy" />
+						<img src={zipcyImage} alt="zipcy" className="me-3 rounded-circle" id="zipcy" />
 						<div className="zipcy-container__main pe-3">
 							<span style={{color: "white"}}><b>ZIPCY'S SUPER</b></span>
 							<span className="priceAndThing">FloorPrice:&nbsp;&nbsp;&nbsp;<i style={{color: "green"}} className="fa-solid fa-diamond"></i> 1.67</span>
@@ -37,7 +40,7 @@ const FooterCryptPlanet = () => {
 				</a>
 				<a href="#">
 					<div className="footer__mutant border border-2 border-secondary">
-						<img src="mutant.webp" alt="mutant" className="me-3 rounded-circle" id="mutant" />
+						<img src={mutantImage} alt="mutant" className="me-3 rounded-circle" id="mutant" />
 						<div className="mutant-container__main pe-3">
 							<span style={{color: "white"}}><b>MUTANT APE</b></span>
 							<span className="priceAndThing">FloorPrice:&nbsp;&nbsp;&nbsp;<i style={{color: "green"}} className="fa-solid fa-diamond"></i> 20.3</span>
@@ -52,8 +55,5 @@ const FooterCryptPlanet = () => {
 		</div>
 	</>);
 };
-
-
-
 
 export default FooterCryptPlanet;
