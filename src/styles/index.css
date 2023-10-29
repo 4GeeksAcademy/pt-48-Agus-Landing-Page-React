@@ -1,12 +1,251 @@
-
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+* {
+    box-sizing: border-box;
+  }
+  
+  #app {
+    width: 100%;
+  }
+  
+  body {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding: 1rem;
+    background-color: #0C0924;
+    font-family: Orbitron, sans-serif;
+    display: flex;
+    justify-content: center;
+/*    background-image: url('backgroundImage5-min.png');
+    background-repeat: no-repeat;*/
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  #navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  
+  .navbar__brand {
+    padding-top: 10px;
+  }
+  
+  .navbar__options {
+    display: flex;
+  }
+  
+  .navbar__options a {
+    padding-top: 10px;
+  }
+  
+  .navbar__options a {
+    padding-right: 3rem;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .body-current__left {
+    display: flex;
+  }
+  
+  .bid {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #body__ {
+    height: 1000px;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .body__left {
+    width: 45%;
+  }
+  
+  .body-current__left {
+    margin-top: 2rem;
+  }
+  
+  .body-current__left span {
+    font-size: 25px;
+  }
+  
+  .body-current__left p {
+    font-size: small;
+    margin-top: 9px;
+    margin-bottom: 0;
+  }
+  
+  .body-title__left {
+    margin-top: 5rem;
+    font-size: 75px;
+    font-family: Nosifer;
+  }
+  
+  .body__right {
+    width: 55%;
+  }
+  
+  .body-right__name {
+    height: 49px;
+    width: 133px;
+    margin-top: 159px;
+    margin-left: 81px;
+  }
+  
+  .body-right__price {
+    height: 109px;
+    width: 205px;
+    margin-top: 341px;
+    margin-left: 38rem;
+  }
+  
+  .body-description__left {
+    margin-left: 11rem;
+    margin-top: 2rem;
+  }
+  
+  .body-description-left__buttons {
+    display: flex;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+  }
+  
+  .body-stats__left {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+  }
+  
+  .body-stats__left p {
+    padding-right: 1rem;
+  }
+  
+  .artwork {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .artists {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .artwork__left {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: center;
+  }
+  
+  .artwork__left i {
+    padding-top: 41px;
+    padding-right: 15px;
+    color: rgb(34, 197, 34);
+  }
+  
+  .active-artists__left {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: center;
+  }
+  
+  .active-artists__left i {
+    padding-top: 41px;
+    padding-right: 15px;
+    color: rgb(34, 197, 34);
+  }
+  
+  #hape {
+    width: 50px;
+  }
+  
+  #zipcy {
+    width: 50px;
+  }
+  
+  #mutant {
+    width: 50px;
+  }
+  
+  .footer__container {
+    margin-top: 5rem;
+  }
+  
+  .footer-headline__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    font-size: 25px;
+  }
+  
+  .footer-collections__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 25px;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  
+  .priceAndThing {
+    font-size: 10px;
+    padding-top: 5px;
+    color: grey;
+  }
+  
+  .footer__hape {
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .hape-container__main {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .hape-container__evo {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer__zipcy {
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .zipcy-container__main {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .zipcy-container__evo {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer__mutant {
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .mutant-container__main {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .mutant-container__evo {
+    display: flex;
+    flex-direction: column;
+  }
